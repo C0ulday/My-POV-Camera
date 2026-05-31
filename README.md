@@ -38,7 +38,7 @@ Here the materials i bought for this project.
 
 | Component | Specs | Qty |
 |-----------|-------|-----|
-| Buttons | Tactile Ø5mm | 3 |
+| Buttons | Ø5mm | 3 |
 | LED blue | 3mm (Bluetooth) | 1 |
 | LED red | 3mm (Battery) | 1 |
 | Resistors | 220Ω, 330Ω, 10kΩ | kit |
