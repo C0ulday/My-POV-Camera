@@ -39,8 +39,8 @@ Here the materials i bought for this project.
 | Component | Specs | Qty |
 |-----------|-------|-----|
 | Buttons | Ø5mm | 3 |
-| LED blue | 3mm (Bluetooth) | 1 |
-| LED red | 3mm (Battery) | 1 |
+| LED blue | for 3mm (Bluetooth) | 1 |
+| LED red | for 3mm (Battery) | 1 |
 | Resistors | 220Ω, 330Ω, 10kΩ | kit |
 | Capacitors | 470µF | kit |
 
