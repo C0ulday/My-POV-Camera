@@ -84,6 +84,8 @@ I used TinkerCAD too for a quick prototype, to ensure that everything could fit 
   <img src="Images/prototype_test.png" alt="3D Test" width="400" height="400" />
 </div>
 
+Finally, I didn't make an insulating wall to separate the electronics part with the magnet. I will use EVA foam/plastic/cardboard here and there to make my compartments.
 
+### CODE
 
 
