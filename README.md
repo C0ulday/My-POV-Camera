@@ -74,6 +74,6 @@ Here the materials i bought for this project.
 I used FreeCAD for my 3D deisgn. 2 Parts, box and cover.
 Here the idea.
 
-![Sketch](draw_sktech.jpg)
+![Sketch](Images/idea_sketch.jpg)
 
 
