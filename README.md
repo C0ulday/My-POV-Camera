@@ -79,9 +79,6 @@ Here's the idea.
 And here's the 3D design on FreeCAD.
 I used TinkerCAD too for a quick prototype, to ensure that everything could fit in the 3D design.
 
-<img src="Images/3D_1.png" alt="3D Design" width="500" height="500" />
-<img src="Images/prototype_test.png" alt="3D Test" width="500" height="500" />
-
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
   <img src="Images/3D_1.png" alt="3D Design" width="500" height="500" />
   <img src="Images/prototype_test.png" alt="3D Test" width="500" height="500" />
