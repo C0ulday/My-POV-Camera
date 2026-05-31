@@ -8,10 +8,10 @@ Cost: ~ 160 euros (139,25 euros for electronics and 21,14 euros for printing)
 My inspos : Osmo Nano ; POV Pro
 
 
-## Materials 
+### Materials 
 Here the materials i bought for this project. 
 # Hardware Components
-### Core Electronics
+# Core Electronics
 
 | Component | Model | Specs | Qty |
 |-----------|-------|-------|-----|
@@ -20,21 +20,21 @@ Here the materials i bought for this project.
 | Storage | MicroSD U3 V30 | 128GB, Class 10 | 1 |
 | Display | SSD1306 OLED | 0.91", 128×32px, I2C | 1 |
 
-### Power
+# Power
 
 | Component | Model | Specs | Qty |
 |-----------|-------|-------|-----|
 | Battery | LiPo 603255 | 3.7V, 1500mAh | 1 |
 | Charge module | TP4056 | USB-C, 3.7V, PH2.0 | 1 |
 
-### Connectors & Cables
+# Connectors & Cables
 
 | Component | Specs | Qty |
 |-----------|-------|-----|
 | JST PH 1.25 | 2 pins, 100mm, M/F | 20 pairs |
 | FPC/FFC ribbon | 0.5mm pitch, type A | 10x (mixed pins) |
 
-### Interface
+# Interface
 
 | Component | Specs | Qty |
 |-----------|-------|-----|
@@ -44,7 +44,7 @@ Here the materials i bought for this project.
 | Resistors | 220Ω, 330Ω, 10kΩ | kit |
 | Capacitors | 470µF | kit |
 
-### Enclosure & Mounting
+# Enclosure & Mounting
 
 | Component | Model | Specs | Qty |
 |-----------|-------|-------|-----|
@@ -53,7 +53,7 @@ Here the materials i bought for this project.
 | Epoxy glue | 3M Scotch-Weld DP460 | structural | 1 |
 | Enclosure | Custom 3D print | 75×50×55mm, PLA, 20% infill | 1 |
 
-### Tools
+# Tools
 
 | Component | Specs |
 |-----------|-------|
@@ -63,11 +63,17 @@ Here the materials i bought for this project.
 | Thermal paste | HY410 silicone |
 | Arduino UNO R3 kit | breadboard, cables, components for testing|
 
-### Others
+# Others
 
 | Component | Qty |
 |-----------|-------|
 | Nylon Necklace | 1 |
 |Plastic support for magnet | 1 |
+
+### Design 
+I used FreeCAD for my 3D deisgn. 2 Parts, box and cover.
+Here the idea.
+
+![Sketch](draw_sktech.jpg)
 
 
