@@ -78,7 +78,7 @@ Here's the idea.
 
 And here's the 3D design on FreeCAD.
 
-<img src="Images/3D_1.png" alt="3D Design" width="1460" height="634" />
+<img src="Images/3D_1.png" alt="3D Design" width="500" height="500" />
 
 I used TinkerCAD too for a quick prototype, to ensure that everything could fit in the 3D design.
 ![3D Test](Images/prototype_test.png)
