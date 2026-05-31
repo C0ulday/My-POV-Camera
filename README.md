@@ -38,9 +38,9 @@ Here the materials i bought for this project.
 
 | Component | Specs | Qty |
 |-----------|-------|-----|
-| Buttons | Tactile Ø5mm | 3 |
-| LED blue | 3mm (Bluetooth) | 1 |
-| LED red | 3mm (Battery) | 1 |
+| Buttons | Ø5mm | 3 |
+| LED blue | for 3mm (Bluetooth) | 1 |
+| LED red | for 3mm (Battery) | 1 |
 | Resistors | 220Ω, 330Ω, 10kΩ | kit |
 | Capacitors | 470µF | kit |
 
@@ -71,9 +71,21 @@ Here the materials i bought for this project.
 |Plastic support for magnet | 1 |
 
 ### Design 
-I used FreeCAD for my 3D deisgn. 2 Parts, box and cover.
-Here the idea.
+I used FreeCAD for my 3D design. 2 parts, a box and a cover.
+Here's the idea.
 
-![Sketch](draw_sktech.jpg)
+<img src="Images/idea_sketch.jpg" alt="Sketch" width="1460" height="634" />
+
+And here's the 3D design on FreeCAD.
+I used TinkerCAD too for a quick prototype, to ensure that everything could fit in the 3D design.
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+  <img src="Images/3D_1.png" alt="3D Design" width="400" height="400" />
+  <img src="Images/prototype_test.png" alt="3D Test" width="400" height="400" />
+</div>
+
+Finally, I didn't make an insulating wall to separate the electronics part with the magnet. I will use EVA foam/plastic/cardboard here and there to make my compartments.
+
+### CODE
 
 
