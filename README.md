@@ -15,7 +15,7 @@ Here the materials i bought for this project.
 
 | Component | Model | Specs | Qty |
 |-----------|-------|-------|-----|
-| Microcontroller | Raspberry Pi Zero W | 1GHz, 512MB, BT 4.1, WiFi | 1 |
+| Microcontroller | Raspberry Pi Zero 1.3 | 1GHz, 512MB, BT 4.1, WiFi | 1 |
 | Camera | IMX219 8MP CSI | 77/130/200°, FFC 15cm | 1 |
 | Storage | MicroSD U3 V30 | 128GB, Class 10 | 1 |
 | Display | SSD1306 OLED | 0.91", 128×32px, I2C | 1 |
