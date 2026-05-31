@@ -74,11 +74,11 @@ Here the materials i bought for this project.
 I used FreeCAD for my 3D design. 2 parts, a box and a cover.
 Here's the idea.
 
-<img src="Images/idea_sketch.jpg" alt="Sketch" width="300" height="200" />
+<img src="Images/idea_sketch.jpg" alt="Sketch" width="1460" height="634" />
 
 And here's the 3D design on FreeCAD.
 
-<img src="Images/3D_1.png" alt="3D Design" width="300" height="200" />
+<img src="Images/3D_1.png" alt="3D Design" width="1460" height="634" />
 
 I used TinkerCAD too for a quick prototype, to ensure that everything could fit in the 3D design.
 ![3D Test](Images/prototype_test.png)
