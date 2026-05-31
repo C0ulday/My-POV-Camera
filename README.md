@@ -77,9 +77,9 @@ Here's the idea.
 ![Sketch](Images/idea_sketch.jpg)
 
 And here's the 3D design on FreeCAD.
-![3D Design](Images/3D_1.PNG)
+![3D Design](Images/3D_1.png)
 
 I used TinkerCAD too for a quick prototype, to ensure that everything could fit in the 3D design.
-![3D Test](Images/prototype_test.PNG)
+![3D Test](Images/prototype_test.png)
 
 
