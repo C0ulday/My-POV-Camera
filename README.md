@@ -20,6 +20,7 @@ Here the materials i bought for this project.
 | Storage | MicroSD U3 V30 | 128GB, Class 10 | 1 |
 | Display | SSD1306 OLED | 0.91", 128×32px, I2C | 1 |
 
+I removed the HM-10 BLE because it was too slow.
 # Power
 
 | Component | Model | Specs | Qty |
