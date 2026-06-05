@@ -17,7 +17,6 @@ Here the materials i bought for this project.
 |-----------|-------|-------|-----|
 | Microcontroller | Raspberry Pi Zero 1.3 | 1GHz, 512MB, BT 4.1, WiFi | 1 |
 | Camera | IMX219 8MP CSI | 77/130/200°, FFC 15cm | 1 |
-| Bluetooth | HM-10 BLE | BLE 4.0, CC2541 | 1 |
 | Storage | MicroSD U3 V30 | 128GB, Class 10 | 1 |
 | Display | SSD1306 OLED | 0.91", 128×32px, I2C | 1 |
 
@@ -27,6 +26,7 @@ Here the materials i bought for this project.
 |-----------|-------|-------|-----|
 | Battery | LiPo 603255 | 3.7V, 1500mAh | 1 |
 | Charge module | TP4056 | USB-C, 3.7V, PH2.0 | 1 |
+| Converter module | MT3608 | to 5v | 1 |
 
 # Connectors & Cables
 
@@ -41,7 +41,6 @@ Here the materials i bought for this project.
 |-----------|-------|-----|
 | Buttons | Ø5mm | 3 |
 | LED blue | for 3mm (Bluetooth) | 1 |
-| LED red | for 3mm (Battery) | 1 |
 | Resistors | 220Ω, 330Ω, 10kΩ | kit |
 | Capacitors | 470µF | kit |
 
@@ -71,22 +70,24 @@ Here the materials i bought for this project.
 | Nylon Necklace | 1 |
 |Plastic support for magnet | 1 |
 
-### Design 
+### 3D Design 
 I used FreeCAD for my 3D design. 2 parts, a box and a cover.
 Here's the idea.
 
-<img src="Images/idea_sketch.jpg" alt="Sketch" width="1460" height="634" />
+<img src="3D Design/Images/idea_sketch.jpg" alt="Sketch" width="1460" height="634" />
 
 And here's the 3D design on FreeCAD.
 I used TinkerCAD too for a quick prototype, to ensure that everything could fit in the 3D design.
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-  <img src="Images/3D_1.png" alt="3D Design" width="400" height="400" />
-  <img src="Images/prototype_test.png" alt="3D Test" width="400" height="400" />
+  <img src="3D Design/Images/3D_1.png" alt="3D Design" width="400" height="400" />
+  <img src="3D Design/Images/prototype_test.png" alt="3D Test" width="400" height="400" />
 </div>
 
-Finally, I didn't make an insulating wall to separate the electronics part with the magnet. I will use EVA foam/plastic/cardboard here and there to make my compartments.
-
+Finally, I didn't make an insulating wall to separate the electronics part from the magnet. I will use EVA foam, plastic, or cardboard here and there to make my compartments. 
+I removed one LED(Red) because I forgot to buy a MAX17048 for the Pi to read the battery information.
+### Electronic Design
+<img src="Electronics/Images/scheme" alt="Sketch" width="1460" height="634" />
 ### CODE
 
 
