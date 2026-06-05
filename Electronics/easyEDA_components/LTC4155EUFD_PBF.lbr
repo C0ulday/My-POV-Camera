@@ -1,0 +1,271 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="QFN-28_UFD">
+<wire x1="-1.7272" y1="2.667" x2="-2.1844" y2="2.667" width="0.1524" layer="21"/>
+<wire x1="2.1844" y1="2.2352" x2="2.1844" y2="2.667" width="0.1524" layer="21"/>
+<wire x1="1.7272" y1="-2.667" x2="2.1844" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-2.1844" y1="-2.667" x2="-1.7272" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="2.1844" y1="-2.667" x2="2.1844" y2="-2.2352" width="0.1524" layer="21"/>
+<wire x1="2.1844" y1="2.667" x2="1.7272" y2="2.667" width="0.1524" layer="21"/>
+<wire x1="-2.1844" y1="2.667" x2="-2.1844" y2="2.2352" width="0.1524" layer="21"/>
+<wire x1="-2.1844" y1="-2.2352" x2="-2.1844" y2="-2.667" width="0.1524" layer="21"/>
+<polygon width="0.0254" layer="21">
+<vertex x="-0.9405" y="-3.1088"/>
+<vertex x="-0.9405" y="-3.3628"/>
+<vertex x="-0.5595" y="-3.3628"/>
+<vertex x="-0.5595" y="-3.1088"/>
+</polygon>
+<polygon width="0.0254" layer="21">
+<vertex x="2.8628" y="0.9405"/>
+<vertex x="2.8628" y="0.5595"/>
+<vertex x="2.6088" y="0.5595"/>
+<vertex x="2.6088" y="0.9405"/>
+</polygon>
+<text x="-3.556" y="1.3716" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<polygon width="0.0254" layer="31">
+<vertex x="-1.275" y="1.775"/>
+<vertex x="-1.275" y="0.1"/>
+<vertex x="-0.1" y="0.1"/>
+<vertex x="-0.1" y="1.775"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="-1.275" y="-0.1"/>
+<vertex x="-1.275" y="-1.775"/>
+<vertex x="-0.1" y="-1.775"/>
+<vertex x="-0.1" y="-0.1"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.1" y="1.775"/>
+<vertex x="0.1" y="0.1"/>
+<vertex x="1.275" y="0.1"/>
+<vertex x="1.275" y="1.775"/>
+</polygon>
+<polygon width="0.0254" layer="31">
+<vertex x="0.1" y="-0.1"/>
+<vertex x="0.1" y="-1.775"/>
+<vertex x="1.275" y="-1.775"/>
+<vertex x="1.275" y="-0.1"/>
+</polygon>
+<wire x1="-2.0574" y1="1.27" x2="-0.7874" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="1.397" y1="2.54" x2="1.0922" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="0.889" y1="2.54" x2="0.6096" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="0.4064" y1="2.54" x2="0.1016" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="-0.1016" y1="2.54" x2="-0.4064" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="-0.6096" y1="2.54" x2="-0.889" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="-1.0922" y1="2.54" x2="-1.397" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="1.905" x2="-2.0574" y2="1.6002" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="1.397" x2="-2.0574" y2="1.0922" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="0.889" x2="-2.0574" y2="0.6096" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="0.4064" x2="-2.0574" y2="0.1016" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="-0.1016" x2="-2.0574" y2="-0.4064" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="-0.6096" x2="-2.0574" y2="-0.889" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="-1.0922" x2="-2.0574" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="-1.6002" x2="-2.0574" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="-1.397" y1="-2.54" x2="-1.0922" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="-0.889" y1="-2.54" x2="-0.6096" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="-0.4064" y1="-2.54" x2="-0.1016" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="0.1016" y1="-2.54" x2="0.4064" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="0.6096" y1="-2.54" x2="0.889" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="1.0922" y1="-2.54" x2="1.397" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-1.905" x2="2.0574" y2="-1.6002" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-1.397" x2="2.0574" y2="-1.0922" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-0.889" x2="2.0574" y2="-0.6096" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-0.4064" x2="2.0574" y2="-0.1016" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="0.1016" x2="2.0574" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="0.6096" x2="2.0574" y2="0.889" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="1.0922" x2="2.0574" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="1.6002" x2="2.0574" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="-2.54" x2="2.0574" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="-2.54" x2="2.0574" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="2.0574" y1="2.54" x2="-2.0574" y2="2.54" width="0.1524" layer="51"/>
+<wire x1="-2.0574" y1="2.54" x2="-2.0574" y2="-2.54" width="0.1524" layer="51"/>
+<text x="-2.1336" y="1.3716" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
+<smd name="1" x="-1.9524" y="1.75" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="2" x="-1.9524" y="1.25" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="3" x="-1.9524" y="0.75" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="4" x="-1.9524" y="0.25" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="5" x="-1.9524" y="-0.25" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="6" x="-1.9524" y="-0.75" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="7" x="-1.9524" y="-1.25" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="8" x="-1.9524" y="-1.75" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="9" x="-1.25" y="-2.4524" dx="0.3" dy="0.8048" layer="1"/>
+<smd name="10" x="-0.75" y="-2.4524" dx="0.3" dy="0.8048" layer="1"/>
+<smd name="11" x="-0.25" y="-2.4524" dx="0.3" dy="0.8048" layer="1"/>
+<smd name="12" x="0.25" y="-2.4524" dx="0.3" dy="0.8048" layer="1"/>
+<smd name="13" x="0.75" y="-2.4524" dx="0.3" dy="0.8048" layer="1"/>
+<smd name="14" x="1.25" y="-2.4524" dx="0.3" dy="0.8048" layer="1"/>
+<smd name="15" x="1.9524" y="-1.75" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="16" x="1.9524" y="-1.25" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="17" x="1.9524" y="-0.75" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="18" x="1.9524" y="-0.25" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="19" x="1.9524" y="0.25" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="20" x="1.9524" y="0.75" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="21" x="1.9524" y="1.25" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="22" x="1.9524" y="1.75" dx="0.8048" dy="0.3" layer="1"/>
+<smd name="23" x="1.25" y="2.4524" dx="0.3" dy="0.8048" layer="1"/>
+<smd name="24" x="0.75" y="2.4524" dx="0.3" dy="0.8048" layer="1"/>
+<smd name="25" x="0.25" y="2.4524" dx="0.3" dy="0.8048" layer="1"/>
+<smd name="26" x="-0.25" y="2.4524" dx="0.3" dy="0.8048" layer="1"/>
+<smd name="27" x="-0.75" y="2.4524" dx="0.3" dy="0.8048" layer="1"/>
+<smd name="28" x="-1.25" y="2.4524" dx="0.3" dy="0.8048" layer="1"/>
+<smd name="29" x="0" y="0" dx="2.75" dy="3.75" layer="1" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="LTC4155EUFD#PBF">
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-40.64" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-40.64" x2="63.5" y2="-40.64" width="0.1524" layer="94"/>
+<wire x1="63.5" y1="-40.64" x2="63.5" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="63.5" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="30.8356" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="30.2006" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
+<pin name="SDA" x="0" y="0"/>
+<pin name="DVCC" x="0" y="-2.54" direction="pwr"/>
+<pin name="*IRQ" x="0" y="-5.08" direction="out"/>
+<pin name="ID" x="0" y="-7.62" direction="pas"/>
+<pin name="CLPROG1" x="0" y="-10.16" direction="pas"/>
+<pin name="CLPROG2" x="0" y="-12.7" direction="pas"/>
+<pin name="WALLSNS" x="0" y="-15.24" direction="in"/>
+<pin name="USBSNS" x="0" y="-17.78" direction="in"/>
+<pin name="USBGT" x="0" y="-20.32" direction="out"/>
+<pin name="OVGCAP" x="0" y="-22.86" direction="out"/>
+<pin name="WALLGT" x="0" y="-25.4" direction="out"/>
+<pin name="VC" x="0" y="-27.94" direction="pas"/>
+<pin name="VOUTSNS" x="0" y="-30.48"/>
+<pin name="NTCBIAS" x="0" y="-33.02" direction="out"/>
+<pin name="NTC" x="71.12" y="-35.56" direction="in" rot="R180"/>
+<pin name="BATSNS" x="71.12" y="-33.02" direction="in" rot="R180"/>
+<pin name="BATGATE" x="71.12" y="-30.48" direction="out" rot="R180"/>
+<pin name="PROG" x="71.12" y="-27.94" direction="pas" rot="R180"/>
+<pin name="CHGSNS_2" x="71.12" y="-25.4" direction="pas" rot="R180"/>
+<pin name="CHGSNS" x="71.12" y="-22.86" direction="pas" rot="R180"/>
+<pin name="VOUT_2" x="71.12" y="-20.32" direction="out" rot="R180"/>
+<pin name="VOUT" x="71.12" y="-17.78" direction="out" rot="R180"/>
+<pin name="VBUS_2" x="71.12" y="-15.24" rot="R180"/>
+<pin name="VBUS_3" x="71.12" y="-12.7" rot="R180"/>
+<pin name="VBUS" x="71.12" y="-10.16" rot="R180"/>
+<pin name="SW_2" x="71.12" y="-7.62" direction="pas" rot="R180"/>
+<pin name="SW" x="71.12" y="-5.08" direction="pas" rot="R180"/>
+<pin name="SCL" x="71.12" y="-2.54" direction="in" rot="R180"/>
+<pin name="EPAD" x="71.12" y="0" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LTC4155EUFD#PBF" prefix="U">
+<description> &lt;a href="https://pricing.snapeda.com/parts/LTC4155EUFD%23PBF/Analog%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="A" symbol="LTC4155EUFD#PBF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN-28_UFD">
+<connects>
+<connect gate="A" pin="*IRQ" pad="3"/>
+<connect gate="A" pin="BATGATE" pad="17"/>
+<connect gate="A" pin="BATSNS" pad="16"/>
+<connect gate="A" pin="CHGSNS" pad="20"/>
+<connect gate="A" pin="CHGSNS_2" pad="19"/>
+<connect gate="A" pin="CLPROG1" pad="5"/>
+<connect gate="A" pin="CLPROG2" pad="6"/>
+<connect gate="A" pin="DVCC" pad="2"/>
+<connect gate="A" pin="EPAD" pad="29"/>
+<connect gate="A" pin="ID" pad="4"/>
+<connect gate="A" pin="NTC" pad="15"/>
+<connect gate="A" pin="NTCBIAS" pad="14"/>
+<connect gate="A" pin="OVGCAP" pad="10"/>
+<connect gate="A" pin="PROG" pad="18"/>
+<connect gate="A" pin="SCL" pad="28"/>
+<connect gate="A" pin="SDA" pad="1"/>
+<connect gate="A" pin="SW" pad="27"/>
+<connect gate="A" pin="SW_2" pad="26"/>
+<connect gate="A" pin="USBGT" pad="9"/>
+<connect gate="A" pin="USBSNS" pad="8"/>
+<connect gate="A" pin="VBUS" pad="25"/>
+<connect gate="A" pin="VBUS_2" pad="23"/>
+<connect gate="A" pin="VBUS_3" pad="24"/>
+<connect gate="A" pin="VC" pad="12"/>
+<connect gate="A" pin="VOUT" pad="22"/>
+<connect gate="A" pin="VOUTSNS" pad="13"/>
+<connect gate="A" pin="VOUT_2" pad="21"/>
+<connect gate="A" pin="WALLGT" pad="11"/>
+<connect gate="A" pin="WALLSNS" pad="7"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Analog Devices"/>
+<attribute name="Description" value="
+                        
+                            PMU/CHARGER, 3.5A LI-ION, I2C, 28QFN; Battery Type:Lithium Ion, Lithium Polymer; Battery Charge Voltage:4.05V; Charge Current Max:3.5A; Battery IC Case Style:QFN; No. of Pins:28; No. of Series Cells:1; Operating Temperature Range:-40°C to +125°C; SVHC:No SVHC (18-Jun-2012); Input Voltage:5.5V
+                        
+                    "/>
+<attribute name="Package" value="QFN -28 Analog Devices"/>
+<attribute name="Price" value="None"/>
+<attribute name="Check_prices" value="https://www.snapeda.com/parts/LTC4155EUFD%23PBF/Analog+Devices/view-part/?ref=eda"/>
+<attribute name="SnapEDA_Link" value="https://www.snapeda.com/parts/LTC4155EUFD%23PBF/Analog+Devices/view-part/?ref=snap"/>
+<attribute name="MP" value="LTC4155EUFD#PBF"/>
+<attribute name="Availability" value="In Stock"/>
+<attribute name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=508814&amp;manufacturer=Analog Devices&amp;part_name=LTC4155EUFD#PBF&amp;search_term=lithium ion polymer battery"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
