@@ -78,6 +78,8 @@ Here's the idea.
 
 And here's the 3D design on FreeCAD.
 I used TinkerCAD too for a quick prototype, to ensure that everything could fit in the 3D design.
+Layer 1 : Magnets
+Layer 2 : Raspberry Pi Zero
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
   <img src="3D Design/Images/3D_1.png" alt="3D Design" width="400" height="400" />
