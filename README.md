@@ -89,6 +89,7 @@ Finally, I didn't make an insulating wall to separate the electronics part from 
 ### Electronic Design
 <img src="Electronics/Images/scheme.png" alt="Sketch" width="1460" height="634" />
 I removed one LED(Red) because I forgot to buy a MAX17048 for the Pi to read the battery information.
+
 ### CODE
 
 
