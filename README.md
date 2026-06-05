@@ -85,9 +85,10 @@ I used TinkerCAD too for a quick prototype, to ensure that everything could fit 
 </div>
 
 Finally, I didn't make an insulating wall to separate the electronics part from the magnet. I will use EVA foam, plastic, or cardboard here and there to make my compartments. 
-I removed one LED(Red) because I forgot to buy a MAX17048 for the Pi to read the battery information.
+
 ### Electronic Design
 <img src="Electronics/Images/scheme.png" alt="Sketch" width="1460" height="634" />
+I removed one LED(Red) because I forgot to buy a MAX17048 for the Pi to read the battery information.
 ### CODE
 
 
