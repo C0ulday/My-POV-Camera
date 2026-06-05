@@ -86,12 +86,15 @@ I used TinkerCAD too for a quick prototype, to ensure that everything could fit 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
   <img src="3D Design/Images/3D_1.png" alt="3D Design" width="400" height="400" />
   <img src="3D Design/Images/prototype_test.png" alt="3D Test" width="400" height="400" />
+  <img src="3D Design/Images/3D_printing.jpg" alt="3D Test" width="400" height="400" />
 </div>
 
 Finally, I didn't make an insulating wall to separate the electronics part from the magnet. I will use EVA foam, plastic, or cardboard here and there to make my compartments. 
 
 ### Electronic Design
-<img src="Electronics/Images/scheme.png" alt="Sketch" width="1460" height="634" />
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+  <img src="Electronics/Images/scheme.png" alt="Sketch" width="1460" height="634" />
+</div>
 I used a different OLED model since i ddin't find it on EasyEDA or snapeda. 
 I removed one LED(Red) because I forgot to buy a MAX17048 for the Pi to read the battery information.
 
