@@ -1,4 +1,4 @@
-# ✦ My POV Camera
+# [ ◉¯]  My POV Camera
 
 A tiny, magnet-mounted camera that clips onto any metal surface to film my ULM flights (multi-axes) in **1080p**.
 
@@ -83,7 +83,7 @@ it on a computer.
 
 ---
 
-## ✦ PCB — Daughterboard
+## ✦ PCB : Daughterboard
 
 Instead of a Dupont rat's nest, all the small parts live on **one custom PCB** that plugs onto the
 Pi Zero's GPIO header: TP4056, MT3608, MAX17048, OLED, 3 buttons, 2 LEDs and passives.
