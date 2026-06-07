@@ -1,4 +1,4 @@
-# 📷 My POV Camera
+# ✦ My POV Camera
 
 A tiny, magnet-mounted camera that clips onto any metal surface to film my ULM flights (multi-axes) in **1080p**.
 
@@ -7,7 +7,7 @@ A tiny, magnet-mounted camera that clips onto any metal surface to film my ULM f
 
 ---
 
-## ✨ The Idea
+## ✦ The Idea
 
 A small first-person-view camera that:
 - sticks to any **magnetic surface** (N52 magnets on the back)
@@ -18,13 +18,13 @@ A small first-person-view camera that:
 
 ---
 
-## 🧪 Prototyping
+## ✦ Prototyping
 
 Everything is tested on the bench first : to validate the wiring and the firmware before committing to anything.
 
 ---
 
-## 🧩 Hardware
+## ✦ Hardware
 
 ### Core Electronics
 | Component | Model | Specs | Qty |
@@ -56,7 +56,7 @@ it on a computer.
 | Component | Specs | Qty |
 |-----------|-------|-----|
 | Buttons | Ø5mm | 3 |
-| LED Green | 3mm — recording status | 1 |
+| LED Green | 3mm : recording status | 1 |
 | Resistors | 220Ω, 330Ω, 10kΩ | kit |
 | Capacitors | 470µF | kit |
 
@@ -83,7 +83,7 @@ it on a computer.
 
 ---
 
-## 🔌 PCB — Daughterboard
+## ✦ PCB — Daughterboard
 
 Instead of a Dupont rat's nest, all the small parts live on **one custom PCB** that plugs onto the
 Pi Zero's GPIO header: TP4056, MT3608, MAX17048, OLED, 3 buttons, 2 LEDs and passives.
@@ -94,7 +94,7 @@ Pi Zero's GPIO header: TP4056, MT3608, MAX17048, OLED, 3 buttons, 2 LEDs and pas
 
 ---
 
-## 🖨️ 3D Design
+## ✦ 3D Design
 
 FreeCAD for the design (box + cover), TinkerCAD for a quick fit-check prototype. 
 
@@ -118,7 +118,7 @@ build the compartments.
 
 ---
 
-## ⚡ Electronic Design
+## ✦ Electronic Design
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
   <img src="Electronics/Images/scheme.png" alt="Schematic" width="1460" height="634" />
