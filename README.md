@@ -86,13 +86,13 @@ FreeCAD for the design, TinkerCAD for quick fit-checks. The enclosure is a **lay
 
 > The LiPo eats ~72 % of the floor footprint, so it gets its own level and can't share a layer with the charge/boost modules — hence the shelf plate.
 
-![3D Design](3D%20Design/Images/3d-design.jpg)
+![3D Design](3D%20Design/Images/3D_1.png)
 
 ---
 
 ## ✦ Circuit
 
-![Circuit Sketch](Electronics/scheme.png)
+![Circuit Sketch](Electronics/Images/scheme.png)
 
 ## ✦ Open items
 
