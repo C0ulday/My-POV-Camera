@@ -16,7 +16,7 @@ A small first-person-view camera that:
 - records my multi-axis flights in 1080p
 - stays minimalist, with little engraved drawings on the 3D shell
 
-![Idea sketch](Images/idea_sketch.jpg)
+![Idea sketch](3D%20Design/Images/idea_sketch.jpg)
 
 ---
 
@@ -86,13 +86,13 @@ FreeCAD for the design, TinkerCAD for quick fit-checks. The enclosure is a **lay
 
 > The LiPo eats ~72 % of the floor footprint, so it gets its own level and can't share a layer with the charge/boost modules — hence the shelf plate.
 
-![3D Design](Images/3d-design.jpg)
+![3D Design](3D%20Design/Images/3d-design.jpg)
 
 ---
 
 ## ✦ Circuit
 
-
+![Circuit Sketch](Electronics/scheme.png)
 
 ## ✦ Open items
 
