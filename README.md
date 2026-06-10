@@ -1,11 +1,6 @@
 # [ ◉¯] My POV Camera
 
 A tiny, magnet-mounted camera that clips onto any metal surface to film my ULM flights (multi-axis) in 1080p.
-
-**Inspirations:** DJI Osmo Nano · POV Pro
-
-> Journey: Idea → Prototyping → Hardware → 3D Design → Code
-
 ---
 
 ## ✦ The Idea
@@ -20,16 +15,6 @@ A small first-person-view camera that:
 
 ---
 
-## ✦ What changed : back to the core
-
-The first version carried an OLED, a MAX17048 fuel gauge, three buttons, two LEDs and a BLE module, all on a custom daughterboard. But this thing lives on **vibration**, and on flight hardware every extra part and every connector is a failure point. So the design was stripped down to what it actually needs:
-
-- **one Play/Stop button**, **one Power button** (no mode buttons)
-- **one REC LED** (no OLED, no fuel gauge, no battery-level logic)
-- **no BLE** : media comes off the SD card
-- **no PCB** : everything is soldered **directly to the Pi's GPIO pads**
-
-
 ## ✦ Hardware
 
 ### Core Electronics
@@ -42,6 +27,7 @@ The first version carried an OLED, a MAX17048 fuel gauge, three buttons, two LED
 > The Pi Zero 1.3 has no wireless. Video is offloaded by pulling the microSD card and reading it on a computer.
 
 ### Power
+
 | Component | Model | Specs | Qty |
 |---|---|---|---|
 | Battery | LiPo 603255 | 3.7 V, ~1500 mAh (≈6.0×32×55 mm) | 1 |
@@ -74,6 +60,8 @@ The first version carried an OLED, a MAX17048 fuel gauge, three buttons, two LED
 | Solder wire | Sn99.3 Cu0.7, 0.8 mm, lead-free |
 | Multimeter | XL830L |
 
+![Components](Electronics/Images/material.HEIC)
+
 ---
 
 ## ✦ 3D Design
@@ -94,11 +82,6 @@ FreeCAD for the design, TinkerCAD for quick fit-checks. The enclosure is a **lay
 
 ![Circuit Sketch](Electronics/Images/scheme.png)
 
-## ✦ Open items
-
-- **Camera:** confirm the sensor type : I accidentally ordered the **77° FOV** variant, but that's just a lens/framing property, not a compatibility issue.
-- **Power chain:** decide whether to collapse **TP4056 + MT3608** into a single **IP5306-type** charge-boost module, that would remove a whole compartment.
-
 ---
 
 ## 💻 Code
@@ -112,4 +95,3 @@ FreeCAD for the design, TinkerCAD for quick fit-checks. The enclosure is a **lay
 | `controller.py` | simple **IDLE ↔ RECORDING** state machine |
 | `main.py` | entry point, **systemd** autostart |
 
-To do — firmware once the assembly is frozen.
