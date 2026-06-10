@@ -11,7 +11,7 @@ A small first-person-view camera that:
 - records my multi-axis flights in 1080p
 - stays minimalist, with little engraved drawings on the 3D shell
 
-![Idea sketch](3D%20Design/Images/idea_sketch.jpg)
+![Idea sketch](3D%20Design/idea_sketch.jpeg)
 
 ---
 
@@ -60,21 +60,7 @@ A small first-person-view camera that:
 | Solder wire | Sn99.3 Cu0.7, 0.8 mm, lead-free |
 | Multimeter | XL830L |
 
-![Components](Electronics/Images/material.HEIC)
-
----
-
-## ✦ 3D Design
-
-FreeCAD for the design, TinkerCAD for quick fit-checks. The enclosure is a **layered sandwich** held together by M2.5 brass standoffs and screws : three compartmented zones stacked vertically:
-
-- **Top — Interface:** camera, buttons, REC LED
-- **Middle — Pi Zero**
-- **Bottom — Energy:** a shelf plate separates the **battery** from the **TP4056 + MT3608** modules
-
-> The LiPo eats ~72 % of the floor footprint, so it gets its own level and can't share a layer with the charge/boost modules — hence the shelf plate.
-
-![3D Design](3D%20Design/Images/3D_1.png)
+![Components](Electronics/Images/material.png)
 
 ---
 
@@ -84,7 +70,24 @@ FreeCAD for the design, TinkerCAD for quick fit-checks. The enclosure is a **lay
 
 ---
 
-## 💻 Code
+## ✦ 3D Design
+
+FreeCAD for the design, TinkerCAD for quick fit-checks. The enclosure is a **layered sandwich** held together by M2.5 brass standoffs and screws : three compartmented zones stacked vertically:
+
+- **Top : Interface:** camera, buttons, REC LED
+- **Middle : Pi Zero**
+- **Bottom : Energy:** a shelf plate separates the **battery** from the **TP4056 + MT3608** modules
+
+> The LiPo eats ~72 % of the floor footprint, so it gets its own level and can't share a layer with the charge/boost modules — hence the shelf plate.
+
+![3D Design Before](3D%20Design/Images/3D_1.png)
+![3D Design Plate](3D%20Design/Images/plate.png)
+![3D Design Front](3D%20Design/Images/front.png)
+
+
+
+
+## ✦ Code
 
 | Module | Role |
 |---|---|
@@ -95,3 +98,6 @@ FreeCAD for the design, TinkerCAD for quick fit-checks. The enclosure is a **lay
 | `controller.py` | simple **IDLE ↔ RECORDING** state machine |
 | `main.py` | entry point, **systemd** autostart |
 
+## ✦ Results
+
+...
