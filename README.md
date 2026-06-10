@@ -83,6 +83,7 @@ FreeCAD for the design, TinkerCAD for quick fit-checks. The enclosure is a **lay
 
 ![3D Design Front](3D%20Design/Images/front.png)
 
+> Front plate design
 
 ## ✦ Code
 
